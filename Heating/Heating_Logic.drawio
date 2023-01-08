@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" modified="2022-12-19T09:41:04.062Z" agent="5.0 (Windows)" etag="gBd9JflwCLoQ8nDENimW" version="20.3.0" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2241" dy="1248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#33001A;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29Iw6GfVD3pd1RVkc-vz-73" target="29Iw6GfVD3pd1RVkc-vz-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-15" value="Register Valve Sensor" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1270" y="800" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29Iw6GfVD3pd1RVkc-vz-18" target="29Iw6GfVD3pd1RVkc-vz-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-22" value="Restart Node&#xa;Red Flow" style="ellipse;fillColor=#000000;strokeColor=none;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1380" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-30" value="Home Assistant" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="30" width="330" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-19" value="Restart &#xa;Home Assistant" style="ellipse;fillColor=#000000;strokeColor=none;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" vertex="1" parent="29Iw6GfVD3pd1RVkc-vz-30">
+          <mxGeometry x="136" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-25" value="MQTT homeassistant&lt;br&gt;/system/start" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;" vertex="1" parent="29Iw6GfVD3pd1RVkc-vz-30">
+          <mxGeometry x="71" y="140" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="29Iw6GfVD3pd1RVkc-vz-30" source="29Iw6GfVD3pd1RVkc-vz-19" target="29Iw6GfVD3pd1RVkc-vz-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="151" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=125;exitDy=40;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="29Iw6GfVD3pd1RVkc-vz-30" source="29Iw6GfVD3pd1RVkc-vz-59" target="29Iw6GfVD3pd1RVkc-vz-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-59" value="MQTT Discovery &lt;br&gt;homeassistant/climate/+/+/config" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;flipH=0;spacingRight=0;spacingLeft=14;" vertex="1" parent="29Iw6GfVD3pd1RVkc-vz-30">
+          <mxGeometry x="20" y="370" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-61" value="Register Home Assistant Device" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="29Iw6GfVD3pd1RVkc-vz-30">
+          <mxGeometry x="87.5" y="460" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-31" value="RaspbeeGW (deconz2mqtt)" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="550" width="374" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29Iw6GfVD3pd1RVkc-vz-33" target="29Iw6GfVD3pd1RVkc-vz-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-33" value="MQTT Discovery" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="504.75" y="337" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-34" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=20;entryDy=20;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29Iw6GfVD3pd1RVkc-vz-25" target="29Iw6GfVD3pd1RVkc-vz-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="290" as="sourcePoint" />
+            <mxPoint x="490" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29Iw6GfVD3pd1RVkc-vz-36" target="29Iw6GfVD3pd1RVkc-vz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-36" value="&lt;div&gt;Read Devices&lt;br&gt;&lt;/div&gt;&lt;div&gt;from deconz&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="504.75" y="277" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.505;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29Iw6GfVD3pd1RVkc-vz-44" target="29Iw6GfVD3pd1RVkc-vz-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-44" value="MQTT Discovery &lt;br&gt;homeassistant/climate/+/+/config" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="438.75" y="400" width="247.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=85;exitDy=40;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29Iw6GfVD3pd1RVkc-vz-29" target="29Iw6GfVD3pd1RVkc-vz-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-29" value="MQTT homeassistant&lt;br&gt;/system/start" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;flipH=0;spacingRight=0;spacingLeft=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="170" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29Iw6GfVD3pd1RVkc-vz-48" target="29Iw6GfVD3pd1RVkc-vz-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-48" value="" style="rhombus;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="547.25" y="230" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-56" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="547.5" y="490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-18" value="Reboot &#xa;RaspBee GW" style="ellipse;fillColor=#000000;strokeColor=none;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="619.75" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-63" value="MQTT Discovery &lt;br&gt;homeassistant/climate/&amp;lt;name&amp;gt;/&amp;lt;id&amp;gt;/config" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;flipH=0;spacingRight=0;spacingLeft=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="906.25" y="400" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-68" value="ID does NOT start with&lt;br&gt; &lt;b&gt;HEATING_BASE_TOPIC&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="29Iw6GfVD3pd1RVkc-vz-64" target="29Iw6GfVD3pd1RVkc-vz-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-64" value="" style="rhombus;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1046.25" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-67" value="Create MQTT Discovery Msg with Preset Topics" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1003.75" y="585" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-69" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#33001A;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="856.25" y="645" width="435" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-71" value="MQTT Discovery &lt;br&gt;homeassistant/climate/+/+/config" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="800" width="247.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-73" value="Register NodeRed Device" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="876.25" y="710" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-74" value="Register Hold_Mode Sensor" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1057.5" y="720" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-75" value="Register HOLD_MODEs sensor" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1420" y="800" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-76" value="Register Current Temperature Sensor" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1200" y="720" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-77" value="Register Window Open Sensor" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1126" y="800" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29Iw6GfVD3pd1RVkc-vz-79" value="Register Setpoint Sensor" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1350" y="720" width="115" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
