@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2023-11-01T07:13:48.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="9k_GKKBBwBYnuGIcVFxM" version="21.2.3" type="github">
+  <diagram name="Seite-1" id="RnQn5qa8K4LxPab7MKX_">
+    <mxGraphModel dx="1586" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-29" value="Charging Required?" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="500" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-1" value="SendSignalAction1" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="770" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=40;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-2" target="-vslxbHUs3JhE1hCQwjN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-2" value="New PowerMeter Reading" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;flipH=1;fillColor=#FFFFFF;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="195" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=80;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-3" target="-vslxbHUs3JhE1hCQwjN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-3" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-14" value="useSoC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-5" target="-vslxbHUs3JhE1hCQwjN-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-5" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-9" value="Action" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="60" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-10" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="-vslxbHUs3JhE1hCQwjN-9">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-15" value="batteryVoltage &amp;lt; absorbtionVoltage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-13" target="-vslxbHUs3JhE1hCQwjN-24">
+          <mxGeometry x="0.2309" y="15" relative="1" as="geometry">
+            <mxPoint x="275" y="410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-13" target="-vslxbHUs3JhE1hCQwjN-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-20" value="batteryVoltage &amp;gt;= absorbtionVoltage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-vslxbHUs3JhE1hCQwjN-19">
+          <mxGeometry x="-0.3156" y="-2" relative="1" as="geometry">
+            <mxPoint x="35" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-13" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-18" value="useVoltage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-5" target="-vslxbHUs3JhE1hCQwjN-13">
+          <mxGeometry x="-0.3049" relative="1" as="geometry">
+            <mxPoint x="60" y="260" as="targetPoint" />
+            <mxPoint x="185" y="225" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-21" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-22" value="batterySoC &amp;lt; targetSoC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-21" target="-vslxbHUs3JhE1hCQwjN-24">
+          <mxGeometry x="0.2802" y="-15" relative="1" as="geometry">
+            <mxPoint x="274.66" y="575" as="targetPoint" />
+            <mxPoint x="274.66" y="465" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-24" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-25" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-21" target="-vslxbHUs3JhE1hCQwjN-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="targetPoint" />
+            <mxPoint x="170" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-27" value="batterySoC &amp;gt;= target SoC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-vslxbHUs3JhE1hCQwjN-26">
+          <mxGeometry x="-0.3156" y="-2" relative="1" as="geometry">
+            <mxPoint x="-25" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vslxbHUs3JhE1hCQwjN-31" value="Charging Required?" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="480" width="500" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
