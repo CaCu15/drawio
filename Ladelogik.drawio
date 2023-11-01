@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T09:19:31.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="6C8cOBYsfjW4rW6wA-Ez" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T09:30:07.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="432Dqw675JfqHng18xB5" version="21.2.3" type="github">
   <diagram name="Seite-1" id="RnQn5qa8K4LxPab7MKX_">
-    <mxGraphModel dx="2705" dy="1476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="991" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,17 +104,14 @@
             <mxPoint x="-65" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RYd9b7n3B8SkECeL92zZ-5" value="inverter is producing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-2" target="RYd9b7n3B8SkECeL92zZ-6">
-          <mxGeometry y="-10" relative="1" as="geometry">
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-5" value="inverter is producing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-2" target="RYd9b7n3B8SkECeL92zZ-112">
+          <mxGeometry x="-0.3016" y="8" relative="1" as="geometry">
             <mxPoint x="190" y="653" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-2" value="" style="rhombus;" vertex="1" parent="1">
           <mxGeometry x="240" y="613" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RYd9b7n3B8SkECeL92zZ-6" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="613" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-9" value="inverter is NOT producing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-2">
           <mxGeometry x="-0.0092" relative="1" as="geometry">
@@ -153,7 +150,7 @@
         <mxCell id="RYd9b7n3B8SkECeL92zZ-16" value="" style="rhombus;" vertex="1" parent="1">
           <mxGeometry x="240" y="763" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RYd9b7n3B8SkECeL92zZ-17" value="newPowerLimit &amp;lt; minChargePower" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-16" target="RYd9b7n3B8SkECeL92zZ-18">
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-17" value="newPowerLimit &amp;lt; minChargePower" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-16" target="RYd9b7n3B8SkECeL92zZ-112">
           <mxGeometry x="-0.1579" y="15" relative="1" as="geometry">
             <mxPoint x="530" y="873" as="targetPoint" />
             <mxPoint x="760" y="803" as="sourcePoint" />
@@ -444,6 +441,12 @@
             <mxPoint x="368" y="333" as="targetPoint" />
             <mxPoint x="791" y="105" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-112" target="RYd9b7n3B8SkECeL92zZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-112" value="" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="435" y="763" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
