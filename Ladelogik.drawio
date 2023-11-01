@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T07:52:14.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="2vXWk6H4xH_-qY3UCUYw" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-01T08:15:19.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="CQTjnlHWW0AMgJQBjhmT" version="21.2.3" type="github">
   <diagram name="Seite-1" id="RnQn5qa8K4LxPab7MKX_">
     <mxGraphModel dx="1314" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-vslxbHUs3JhE1hCQwjN-31" value="Absorbtion Requested?" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="10" y="500" width="500" height="200" as="geometry" />
+          <mxGeometry x="10" y="592" width="500" height="200" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-29" value="Charging Required?" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="10" y="290" width="500" height="200" as="geometry" />
+          <mxGeometry x="10" y="382" width="500" height="200" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-31" target="RYd9b7n3B8SkECeL92zZ-34">
           <mxGeometry relative="1" as="geometry" />
@@ -17,30 +17,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-1" value="&lt;div&gt;set Huawei Limits&lt;/div&gt;&lt;div&gt;(newCurrentLimit, absorbtionVoltage&lt;br&gt;&lt;/div&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="123.75" y="1140" width="262.5" height="40" as="geometry" />
+          <mxGeometry x="123.75" y="1234" width="262.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-2" value="New PowerMeter Reading" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;flipH=1;fillColor=#FFFFFF;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="175" y="123" width="160" height="40" as="geometry" />
+          <mxGeometry x="175" y="143" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=80;entryDy=0;entryPerimeter=0;" parent="1" source="-vslxbHUs3JhE1hCQwjN-3" target="-vslxbHUs3JhE1hCQwjN-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-3" value="" style="ellipse;fillColor=strokeColor;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="73" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="93" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-14" value="useSoC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-vslxbHUs3JhE1hCQwjN-5" target="-vslxbHUs3JhE1hCQwjN-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="360" as="targetPoint" />
+            <mxPoint x="330" y="452" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-5" value="" style="rhombus;" parent="1" vertex="1">
-          <mxGeometry x="240" y="320" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="412" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-9" target="RYd9b7n3B8SkECeL92zZ-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-9" value="newPowerLimit = huaweiOutputPower + powerMeterCurrentReading" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="175" y="800" width="160" height="50" as="geometry" />
+          <mxGeometry x="175" y="894" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-10" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" parent="-vslxbHUs3JhE1hCQwjN-9" vertex="1">
           <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
@@ -49,13 +49,13 @@
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-15" value="batteryVoltage &amp;lt; absorbtionVoltage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-vslxbHUs3JhE1hCQwjN-13" target="-vslxbHUs3JhE1hCQwjN-24" edge="1">
           <mxGeometry x="0.2309" y="15" relative="1" as="geometry">
-            <mxPoint x="255" y="530" as="targetPoint" />
+            <mxPoint x="255" y="622" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-vslxbHUs3JhE1hCQwjN-13" target="-vslxbHUs3JhE1hCQwjN-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="10" y="500" as="targetPoint" />
+            <mxPoint x="10" y="592" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-20" value="batteryVoltage &amp;gt;= absorbtionVoltage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-vslxbHUs3JhE1hCQwjN-19" vertex="1" connectable="0">
@@ -64,22 +64,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-13" value="" style="rhombus;" parent="1" vertex="1">
-          <mxGeometry x="10" y="380" width="30" height="30" as="geometry" />
+          <mxGeometry x="10" y="472" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-18" value="useVoltage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-vslxbHUs3JhE1hCQwjN-5" target="-vslxbHUs3JhE1hCQwjN-13" edge="1">
           <mxGeometry x="-0.3049" relative="1" as="geometry">
-            <mxPoint x="40" y="380" as="targetPoint" />
-            <mxPoint x="165" y="345" as="sourcePoint" />
+            <mxPoint x="40" y="472" as="targetPoint" />
+            <mxPoint x="165" y="437" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-21" value="" style="rhombus;" parent="1" vertex="1">
-          <mxGeometry x="460" y="380" width="30" height="30" as="geometry" />
+          <mxGeometry x="460" y="472" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-22" value="batterySoC &amp;lt; targetSoC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-vslxbHUs3JhE1hCQwjN-21" target="-vslxbHUs3JhE1hCQwjN-24" edge="1">
           <mxGeometry x="0.2802" y="-15" relative="1" as="geometry">
-            <mxPoint x="254.66000000000003" y="695" as="targetPoint" />
-            <mxPoint x="254.66000000000003" y="585" as="sourcePoint" />
+            <mxPoint x="254.66000000000003" y="787" as="targetPoint" />
+            <mxPoint x="254.66000000000003" y="677" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -87,15 +87,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-24" value="" style="rhombus;" parent="1" vertex="1">
-          <mxGeometry x="240" y="440" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="532" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-25" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="380" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="472" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-vslxbHUs3JhE1hCQwjN-21" target="-vslxbHUs3JhE1hCQwjN-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="520" as="targetPoint" />
-            <mxPoint x="150" y="475" as="sourcePoint" />
+            <mxPoint x="330" y="612" as="targetPoint" />
+            <mxPoint x="150" y="567" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-vslxbHUs3JhE1hCQwjN-27" value="batterySoC &amp;gt;= target SoC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-vslxbHUs3JhE1hCQwjN-26" vertex="1" connectable="0">
@@ -105,28 +105,28 @@
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-5" value="inverter is producing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-2" target="RYd9b7n3B8SkECeL92zZ-6">
           <mxGeometry y="-10" relative="1" as="geometry">
-            <mxPoint x="190" y="760" as="targetPoint" />
+            <mxPoint x="190" y="854" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-2" value="" style="rhombus;" vertex="1" parent="1">
-          <mxGeometry x="240" y="720" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="814" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-6" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="720" width="30" height="30" as="geometry" />
+          <mxGeometry x="20" y="814" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-7" value="&lt;div&gt;tbd.&lt;/div&gt;&lt;div&gt;e.g scheduled (once per week/month)&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="319" y="550" width="150" height="100" as="geometry" />
+          <mxGeometry x="319" y="642" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-9" value="inverter is NOT producing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-2">
           <mxGeometry x="-0.0092" relative="1" as="geometry">
-            <mxPoint x="255" y="800" as="targetPoint" />
-            <mxPoint x="250" y="745" as="sourcePoint" />
+            <mxPoint x="255" y="894" as="targetPoint" />
+            <mxPoint x="250" y="839" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RYd9b7n3B8SkECeL92zZ-11" value="time since last command sent &amp;gt;&amp;nbsp; &lt;br&gt;MIN_HUAWEI_REQUEST_INTERVAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-10" target="-vslxbHUs3JhE1hCQwjN-5">
-          <mxGeometry x="-0.6154" y="-5" relative="1" as="geometry">
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-11" value="time since last command sent &amp;gt;&amp;nbsp; &lt;br&gt;MIN_HUAWEI_REQUEST_INTERVAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-10" target="RYd9b7n3B8SkECeL92zZ-40">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
             <mxPoint x="720" y="500" as="targetPoint" />
             <mxPoint x="780" y="460" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -134,30 +134,30 @@
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-12" value="time since last command sent &amp;gt;&amp;nbsp; &lt;br&gt;MIN_HUAWEI_REQUEST_INTERVAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-10" target="RYd9b7n3B8SkECeL92zZ-14">
           <mxGeometry x="-0.0496" y="-15" relative="1" as="geometry">
-            <mxPoint x="90" y="220" as="targetPoint" />
-            <mxPoint x="160" y="190" as="sourcePoint" />
+            <mxPoint x="90" y="240" as="targetPoint" />
+            <mxPoint x="160" y="210" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-13" value="powerMeterReading" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=40;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vslxbHUs3JhE1hCQwjN-2" target="RYd9b7n3B8SkECeL92zZ-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="255" y="180" as="sourcePoint" />
-            <mxPoint x="255" y="314" as="targetPoint" />
+            <mxPoint x="255" y="200" as="sourcePoint" />
+            <mxPoint x="255" y="334" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-10" value="" style="rhombus;" vertex="1" parent="1">
-          <mxGeometry x="240" y="210" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="230" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-14" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="210" width="30" height="30" as="geometry" />
+          <mxGeometry x="20" y="230" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-16" value="" style="rhombus;" vertex="1" parent="1">
-          <mxGeometry x="240" y="870" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="964" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-17" value="newPowerLimit &amp;lt; minChargePower" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-16" target="RYd9b7n3B8SkECeL92zZ-18">
           <mxGeometry x="-0.1579" y="15" relative="1" as="geometry">
-            <mxPoint x="530" y="980" as="targetPoint" />
-            <mxPoint x="760" y="910" as="sourcePoint" />
+            <mxPoint x="530" y="1074" as="targetPoint" />
+            <mxPoint x="760" y="1004" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -165,7 +165,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-18" value="newCurrentLimit&amp;nbsp; = 0" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="370" y="940" width="160" height="50" as="geometry" />
+          <mxGeometry x="370" y="1034" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-19" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="RYd9b7n3B8SkECeL92zZ-18">
           <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
@@ -173,7 +173,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-21" value="newPowerLimit = MAX( newPowerLimit, maxChargePower)" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="940" width="195" height="50" as="geometry" />
+          <mxGeometry x="160" y="1034" width="195" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-22" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="RYd9b7n3B8SkECeL92zZ-21">
           <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
@@ -182,8 +182,8 @@
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-24" value="newPowerLimit &amp;lt; minChargePower" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-16" target="RYd9b7n3B8SkECeL92zZ-21">
           <mxGeometry x="-0.1579" y="15" relative="1" as="geometry">
-            <mxPoint x="530" y="930" as="targetPoint" />
-            <mxPoint x="280" y="895" as="sourcePoint" />
+            <mxPoint x="530" y="1024" as="targetPoint" />
+            <mxPoint x="280" y="989" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -191,7 +191,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-25" value="newCurrentLimit =huaweiEfficiency * (newPowerLimit / huaweiOutputVoltage)" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1010" width="195" height="50" as="geometry" />
+          <mxGeometry x="160" y="1104" width="195" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-26" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="RYd9b7n3B8SkECeL92zZ-25">
           <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
@@ -202,10 +202,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-27" value="" style="rhombus;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1090" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="1184" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-31" value="Wait For MIN_HUAWEI_REQUEST_INTERVAL " style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="152.5" y="1210" width="205" height="50" as="geometry" />
+          <mxGeometry x="152.5" y="1304" width="205" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-32" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="RYd9b7n3B8SkECeL92zZ-31">
           <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
@@ -213,10 +213,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-34" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1290" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="1384" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYd9b7n3B8SkECeL92zZ-35" value="ESPHome Script configured with mode &quot;single&quot; - &lt;br&gt;this blocks re-execution of this script for MIN_HUAWEI_REQUEST_INTERVAL" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="386.25" y="1200" width="256" height="110" as="geometry" />
+          <mxGeometry x="386.25" y="1294" width="256" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-40" target="-vslxbHUs3JhE1hCQwjN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-40" value="Script: HTTP - GetLiveData&lt;br&gt;&lt;b&gt;GET /api/livedata/status&lt;/b&gt;" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="310" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-41" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="RYd9b7n3B8SkECeL92zZ-40">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="RYd9b7n3B8SkECeL92zZ-42" target="RYd9b7n3B8SkECeL92zZ-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-42" value="&lt;div&gt;ESPHome Script to retrieve LiveData from OpenDTU &lt;/div&gt;&lt;br&gt;GET /api/livedata/status&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;inverterIsProducing&lt;/b&gt;: &amp;nbsp;&amp;nbsp; inverters[0].producing &lt;br&gt;&lt;div&gt;&lt;b&gt;huaweiOutputPower&lt;/b&gt;:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; huawei.Power.v&lt;/div&gt;&lt;div&gt;&lt;b&gt;batterySoC&lt;/b&gt;: payload.battery.soc.v&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="460" y="183" width="383.75" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-45" value="&lt;div&gt;Script: HTTP - GetLiveData&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span class=&quot;red-ui-debug-msg-payload&quot;&gt;GET /api/batterylivedata/status&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="412" width="237.75" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-46" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="RYd9b7n3B8SkECeL92zZ-45">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-20" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYd9b7n3B8SkECeL92zZ-47" value="&lt;div&gt;&lt;div&gt;ESPHome Script to retrieve BatteryData from OpenDTU&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;GET /api/batterylivedata/status&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;batteryChargeCurrentLimitation:&lt;/b&gt; values.chargeCurrentLimitation&lt;/div&gt;&lt;div&gt;&lt;b&gt;batteryVoltage&lt;/b&gt;: values.voltage.v&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="517" width="380" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
