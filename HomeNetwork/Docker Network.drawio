@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T10:09:39.363Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="RhXmPZuxdOM2G02qX6Dp" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T10:12:26.871Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="zP2wFAEJUJEmgwPkSDf2" version="23.1.6" type="github">
   <diagram name="Page-1" id="WSNy4wVCY7JSL-_r6ql8">
     <mxGraphModel dx="1562" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="107" y="230" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-1" value="VLAN 10 - &quot;Server&quot; (192.168.178.0/24)" style="html=1;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientColor=none;gradientDirection=north;fontColor=#ffffff;perimeter=backbonePerimeter;backboneSize=20;points=[[0.5,0,0,0,0]];" parent="1" vertex="1">
-          <mxGeometry x="30" y="200" width="1450" height="20" as="geometry" />
+          <mxGeometry x="30" y="200" width="1560" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-6" value=":8123" style="strokeColor=#6881B3;edgeStyle=none;rounded=0;endArrow=none;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="-vyC8QUPcTlA4Ckdc9Ip-1" edge="1" source="35GrxCejdZGISXl2GEbz-11">
           <mxGeometry relative="1" as="geometry">
@@ -105,7 +105,7 @@
         <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-28" value="nc_nginx" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="412" y="480" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-32" value="Internal" style="html=1;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientColor=none;gradientDirection=north;fontColor=#ffffff;perimeter=backbonePerimeter;backboneSize=20;points=[[0.5,1,0,0,0],[0.91,0.15,0,0,0],[0.91,1,0,0,1]];" parent="1" vertex="1">
+        <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-32" value="Internal &lt;font color=&quot;#ff0000&quot;&gt;(rename: nextcloud)&lt;br&gt;&lt;/font&gt;" style="html=1;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientColor=none;gradientDirection=north;fontColor=#ffffff;perimeter=backbonePerimeter;backboneSize=20;points=[[0.5,1,0,0,0],[0.91,0.15,0,0,0],[0.91,1,0,0,1]];" parent="1" vertex="1">
           <mxGeometry x="30" y="550" width="650" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-33" value="" style="strokeColor=#6881B3;edgeStyle=none;rounded=0;endArrow=none;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="-vyC8QUPcTlA4Ckdc9Ip-37" target="-vyC8QUPcTlA4Ckdc9Ip-32" edge="1">
@@ -195,7 +195,7 @@
         <mxCell id="35GrxCejdZGISXl2GEbz-16" value="ESPHome" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="350" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="35GrxCejdZGISXl2GEbz-17" value="Internal" style="html=1;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientColor=none;gradientDirection=north;fontColor=#ffffff;perimeter=backbonePerimeter;backboneSize=20;points=[[0.5,1,0,0,0],[0.91,0.15,0,0,0],[0.91,1,0,0,1]];" vertex="1" parent="1">
+        <mxCell id="35GrxCejdZGISXl2GEbz-17" value="Internal (&lt;font color=&quot;#ff0000&quot;&gt;rename: home_automation)&lt;br&gt;&lt;/font&gt;" style="html=1;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientColor=none;gradientDirection=north;fontColor=#ffffff;perimeter=backbonePerimeter;backboneSize=20;points=[[0.5,1,0,0,0],[0.91,0.15,0,0,0],[0.91,1,0,0,1]];" vertex="1" parent="1">
           <mxGeometry x="950" y="550" width="380" height="20" as="geometry" />
         </mxCell>
         <mxCell id="35GrxCejdZGISXl2GEbz-19" value="" style="strokeColor=#6881B3;edgeStyle=none;rounded=0;endArrow=none;html=1;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="35GrxCejdZGISXl2GEbz-17" target="35GrxCejdZGISXl2GEbz-15">
@@ -205,7 +205,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="35GrxCejdZGISXl2GEbz-20" value="Grafana" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1561" y="569" width="90" height="41" as="geometry" />
+          <mxGeometry x="1430" y="350.5" width="90" height="41" as="geometry" />
         </mxCell>
         <mxCell id="35GrxCejdZGISXl2GEbz-21" value="" style="strokeColor=#6881B3;edgeStyle=none;rounded=0;endArrow=none;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="35GrxCejdZGISXl2GEbz-20" source="-vyC8QUPcTlA4Ckdc9Ip-1">
           <mxGeometry relative="1" as="geometry">
@@ -269,7 +269,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="35GrxCejdZGISXl2GEbz-35" value="influx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="520" width="90" height="40" as="geometry" />
+          <mxGeometry x="1370" y="300.5" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="35GrxCejdZGISXl2GEbz-36" value=":8086" style="strokeColor=#6881B3;edgeStyle=none;rounded=0;endArrow=none;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="35GrxCejdZGISXl2GEbz-35" source="-vyC8QUPcTlA4Ckdc9Ip-1">
           <mxGeometry relative="1" as="geometry">
