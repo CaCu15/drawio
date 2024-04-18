@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T10:08:49.413Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="A8HYuGBonPKSV6UH5ic6" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T10:09:39.363Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="RhXmPZuxdOM2G02qX6Dp" version="23.1.6" type="github">
   <diagram name="Page-1" id="WSNy4wVCY7JSL-_r6ql8">
     <mxGraphModel dx="1562" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="35GrxCejdZGISXl2GEbz-9" value="Proxy" style="swimlane;startSize=23;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="114" y="240" width="286" height="290" as="geometry" />
+          <mxGeometry x="114" y="270" width="286" height="260" as="geometry" />
         </mxCell>
         <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-29" value="proxy" style="rounded=0;whiteSpace=wrap;html=1;" parent="35GrxCejdZGISXl2GEbz-9" vertex="1">
           <mxGeometry x="186" y="60" width="90" height="40" as="geometry" />
@@ -23,15 +23,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-7" value=":80&lt;br&gt;:443" style="strokeColor=#6881B3;edgeStyle=none;rounded=0;endArrow=none;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="-vyC8QUPcTlA4Ckdc9Ip-29" target="-vyC8QUPcTlA4Ckdc9Ip-1" edge="1">
-          <mxGeometry x="-0.5062" relative="1" as="geometry">
+          <mxGeometry x="0.4414" relative="1" as="geometry">
             <mxPoint x="338" y="280" as="sourcePoint" />
             <mxPoint as="offset" />
             <mxPoint x="353" y="219" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-8" value="192.168.178.15&lt;br&gt;&lt;br&gt;:9000&lt;br&gt;:9443" style="strokeColor=#6881B3;edgeStyle=none;rounded=0;endArrow=none;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="-vyC8QUPcTlA4Ckdc9Ip-1" edge="1" source="35GrxCejdZGISXl2GEbz-1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-8" value=":9000&lt;br&gt;:9443" style="strokeColor=#6881B3;edgeStyle=none;rounded=0;endArrow=none;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="-vyC8QUPcTlA4Ckdc9Ip-1" edge="1" source="35GrxCejdZGISXl2GEbz-1">
+          <mxGeometry x="0.4414" relative="1" as="geometry">
             <mxPoint x="450" y="280" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-9" value=":8096&lt;br&gt;:8920" style="strokeColor=#6881B3;edgeStyle=none;rounded=0;endArrow=none;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="-vyC8QUPcTlA4Ckdc9Ip-1" edge="1" source="35GrxCejdZGISXl2GEbz-5">
@@ -40,7 +41,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-10" value="Home Automation" style="swimlane;startSize=23;fillColor=#ffffff;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-10" value="Home Automation" style="swimlane;startSize=23;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="850" y="270" width="500" height="310" as="geometry" />
         </mxCell>
         <mxCell id="-vyC8QUPcTlA4Ckdc9Ip-11" value="Netxcloud" style="swimlane;startSize=23;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
